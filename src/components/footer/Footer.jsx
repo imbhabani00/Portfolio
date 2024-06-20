@@ -3,7 +3,7 @@ import React from "react";
 const Footer = ({darkMode}) => {
   return (
     <>
-      <div className={`${darkMode ? "bg-black text-white" : "bg-white text-black"}pt-4 sm:pt-10 lg:pt-12`}>
+      <div className={`${darkMode ? "bg-black text-white" : "bg-white text-black"}pt-4 sm:pt-10 lg:pt-12 -mt-48`}>
         <footer className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="flex flex-col items-center pt-10">
             <div className="flex gap-4">
