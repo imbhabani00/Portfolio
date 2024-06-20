@@ -70,7 +70,7 @@ const MyTeam = ({ darkMode }) => {
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
           <div className="mb-20">
             <h2 className=" text-center text-2xl font-bold text-indigo-600 md:mb-16 lg:text-3xl">
-              Meet My Team
+              Meet My Team !
             </h2>
             <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
               Meet the talented individuals who make up our exceptional team.
