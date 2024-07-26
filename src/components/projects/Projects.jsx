@@ -47,7 +47,7 @@ const Projects = ({ darkMode }) => {
             <h3 className="text-md font-medium mb-4 text-indigo-600">Languages: {project.languages}</h3>
             <div className="flex justify-around p-4">
               <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="text-indigo-600 dark:text-indigo-300 hover:text-indigo-900 dark:hover:text-indigo-500 font-bold">Source Code</a>
-              <a href={project.hoisted} target="_blank" rel="noopener noreferrer" className="text-indigo-600 dark:text-indigo-300 hover:text-indigo-900 dark:hover:text-indigo-500 font-bold">Hoisted</a>
+              <a href={project.hoisted} target="_blank" rel="noopener noreferrer" className="text-indigo-600 dark:text-indigo-300 hover:text-indigo-900 dark:hover:text-indigo-500 font-bold">Hosting Url</a>
             </div>
           </div>
         ))}
